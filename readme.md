@@ -6,7 +6,7 @@
 
 Pair your DS4 with computer using bluetooth.
 
-Copy this folder to your Max's `packages` folder. Then you can just right click on your patch windows (in editing status) and select "Paste From" -> "zsy.ds4.clip" to paste a bpatcher to your patch.
+Download the latest [release](https://github.com/larme/zsy.ds4/releases) and unzip the file in your Max's `packages` folder. Then you can just right click on your patch windows (in editing status) and select "Paste From" -> "zsy.ds4.clip" to paste a bpatcher to your patch.
 
 The bpatcher will have three outlets. The first outlet outputs following analog data from your DS4:
 
@@ -38,3 +38,6 @@ The third outlet of `[zsy.ds4]` outputs DS4's dpad status:
 - west: left is pressed
 - northwest: up and left is pressed
 - release: the dpad is released
+
+## Screenshot
+![demo](misc/demo.gif)
